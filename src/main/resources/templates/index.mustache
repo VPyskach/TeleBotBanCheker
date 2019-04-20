@@ -1,0 +1,16 @@
+<html>
+<body>
+<div>
+    <form method="post">
+        <input type="text" name="text" placeholder="Введіть ссилку" size="80"/>
+        <button type="submit">Добавити</button>
+    </form>
+</div>
+{{#urls}}
+    <div>
+        <span>URL: {{url}} </span>
+        <b>STATUS: {{status}}</b>
+    </div>
+{{/urls}}
+</body>
+</html>
